@@ -327,6 +327,15 @@ background-image: url('Shop/kiguenfant/kigu-kangoo.jpg');
 background-image: url('Shop/kiguenfant/kigu-licorne.jpg');
 }
 
+.bonnet-stitch .imgpr {
+background-image: url('Shop/accessoires/bonnet-stitch.jpg');
+}
+
+.cache-cou-panda-roux .imgpr {
+background-image: url('Shop/accessoires/cache-cou-panda-roux.jpg');
+}
+
+
 prod {
 	display: block;
 	overflow: hidden;
