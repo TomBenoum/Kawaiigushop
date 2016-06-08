@@ -319,6 +319,14 @@ background-image: url('Shop/kiguperso/kigu-stitch.jpg');
 background-image: url('Shop/kiguperso/kigu-winnie-ourson.jpg');
 }
 
+.kigu-kangoo .imgpr {
+background-image: url('Shop/kiguenfant/kigu-kangoo.jpg');
+}
+
+.kigu-licorne .imgpr {
+background-image: url('Shop/kiguenfant/kigu-licorne.jpg');
+}
+
 prod {
 	display: block;
 	overflow: hidden;
