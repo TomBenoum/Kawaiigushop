@@ -271,9 +271,7 @@ text-align:center;
 	}
 
 	
-	.promotionac ul{
-	display : inline-block;
-	}
+
 }
 
 .pages > .page:target ~ .page:last-child, .pages > .page {
@@ -311,6 +309,14 @@ background-image: url('Shop/kiguadulte/kigu-panda.jpg');
 	
 .kigu-hamster .imgpr {
 background-image: url('Shop/kiguadulte/kigu-hamster.jpg');
+}
+
+.kigu-stitch .imgpr {
+background-image: url('Shop/kiguperso/kigu-stitch.jpg');
+}
+
+.kigu-winnie-ourson .imgpr {
+background-image: url('Shop/kiguperso/kigu-winnie-ourson.jpg');
 }
 
 prod {
