@@ -282,7 +282,12 @@ text-align:center;
   }
   
  .pages > :last-child, .pages > .page:target {
-    background-color: rgba(100,100,100, 0.2);
+    background-image: url('back8.jpg');
+	background-repeat: 	no-repeat;
+	background-position: center center;
+	background-attachment:fixed;
+	background-size: 100% 100%;
+	height: 100%;
 	border: 10px;
 	padding : 10px 40px 10px 40px;
 	margin : 0px 100px 90px 100px;
@@ -420,5 +425,88 @@ border: 3px solid black;
 	background-repeat: no-repeat;
 	min-width: 50px;
 	min-height: 50px;
+}
+
+
+
+#aceuil p:first-child, #aceuil2 p:first-child{
+	color: #FF0040;
+	
+}
+
+#aceuil p, #aceuil2 p, #aceuil a{
+	padding: 0px;
+	margin: 10px 10px 0px 0px;
+	text-align: center;
+	text-decoration: inherit;
+	
+}
+
+#aceuil2 {
+	
+	height: 730px;
+	
+}
+
+
+.promotionac ul, .promotionac li {
+color: white;
+list-style-type: none;
+}
+
+.promotionac  :hover 
+{
+background-color: #424242;
+}
+
+
+.promotionac {
+	text-align:center;
+	background-color:rgba(100,100,100,0.5);
+	
+	margin: 30px 0px 30px 0px;
+	padding: 0px 70px 0px 70px;
+	background-image:url('Shop/Special_Promotions.png');
+	background-repeat: no-repeat;
+	background-size: 69px 252px;
+	background-position: 25px 50%;
+}
+
+.promotionac ul {
+display: inline-block;
+border: 1px solid black;
+margin: 35px 10px 35px 0px;
+padding : 0px;
+background-color: grey;
+background-image: url( );
+background-repeat: no-repeat;
+width: 200px;
+height: 290px;
+
+}
+
+.promotionac ul li {
+	padding-top: 5px;
+	
+}
+
+.promotionac .ancprix {
+	text-decoration: line-through;
+}
+
+.promotionac .cclk {
+	text-decoration: inherit;
+color: white;	
+	font-weight: bold;
+	
+}
+
+.nvprix {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 22px;
+	color: #FF0040;
+    text-shadow: 0px 0px 10px white;
+	margin-left: 20px;
 }
 
