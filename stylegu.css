@@ -6,7 +6,7 @@ body
 {
 
 	font-family:"Georgia";	
-	background-image: url("back1.png");
+	background-image: url("back5.jpg");
 	background-repeat: 	repeat;
 	background-size: 100% 100%;
 
@@ -335,6 +335,14 @@ background-image: url('Shop/accessoires/bonnet-stitch.jpg');
 background-image: url('Shop/accessoires/cache-cou-panda-roux.jpg');
 }
 
+.kigu-lion .imgpr {
+background-image: url('Shop/nouveaute&solde/kigu-lion.jpg');
+}
+
+.kigu-alien .imgpr {
+background-image: url('Shop/nouveaute&solde/kigu-alien.jpg');
+}
+
 
 prod {
 	display: block;
@@ -353,7 +361,7 @@ border: 3px solid black;
 	padding: 5px;
 	height: 215px;
 	table-layout:fixed;
-	background-color: grey;
+	background-color: #FAE6C5;
 	border-radius: 8px;
 		overflow: hidden;	
 }
