@@ -272,6 +272,10 @@ text-align:center;
 	.b2, #barre2 a {
 	display : inline;
 	}
+	
+	.promotionac ul{
+	display : inline-block;
+	}
 
 	
 
@@ -295,6 +299,8 @@ text-align:center;
 	min-height: 500px;
 	display: block;
   }
+  
+  
 
 /* dqs dq*/
 
@@ -509,4 +515,120 @@ color: white;
     text-shadow: 0px 0px 10px white;
 	margin-left: 20px;
 }
+
+
+
+
+
+
+.concc {
+
+	border-radius: 3px;
+	padding : 15px;
+	background-color: #F2F2F2;	
+	border: 5px solid grey;
+
+	text-decoration:inherit;
+	display: none;
+	top: 10px;
+	margin-left: 34%	;
+	margin-top:15%;
+
+	position: fixed;	
+
+	
+}
+
+
+.concc:target {
+	display: block;
+}
+
+.concc:target 	#fermersco:active
+{
+	display: none;
+}
+
+
+
+.rtrco {
+	
+	text-decoration: inherit;
+	color: white;
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	border: 1px solid black;
+	margin-top: 2px;
+	padding: 0px 3px 0px 3px;
+	background-color: grey;
+	font-family: Arial;
+}
+
+ #cmtr div{
+	margin: 30px;
+	text-align: center
+}
+
+#cmdd {
+margin: 10px 100px 10px 100px;
+float: right;
+	
+}
+
+/* FORMULAIRE */
+.formlr {
+	
+	background-color: grey;
+	padding : 10px;
+	margin: 50px auto;
+	width: 600px;
+	height: 400px;
+	
+}
+
+.formlr p {
+text-decoration: inherit;
+text-align: center;
+font-weight: bold;
+	
+}
+
+.formlr .infos{
+	
+	margin: 20px;
+	
+}
+
+.formlr .cmtt {
+
+	float: right;
+	width: 600px;
+	height: 50px;
+	max-width:560px;
+}
+
+
+.cmt2 {
+	margin-top:10px;	
+	float: right;
+	width: 560px;
+	height: 180px;
+	max-height:180px;
+	max-width:560px;
+	
+}
+.formlr [type=text] {
+	
+	float: right;
+	width: 300px;
+}
+
+
+
+
+
+
+
+
 
