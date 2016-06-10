@@ -565,7 +565,7 @@ color: white;
 	font-family: Arial;
 }
 
- #cmtr div{
+ #cmtr div,#ajtpan div{
 	margin: 30px;
 	text-align: center
 }
