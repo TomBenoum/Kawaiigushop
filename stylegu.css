@@ -624,6 +624,44 @@ font-weight: bold;
 	width: 300px;
 }
 
+/*********** PANIER *********/
+
+.paniera {
+	
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 850px;
+	background-color: rgb(230,230,230);
+	border-collapse: collapse;
+
+}
+
+.paniera td {
+	border-bottom: 1px solid black;
+	padding: 3px;
+}
+
+
+
+
+.paniera td:last-child {
+	
+	text-align: right;
+}
+
+
+.paniera tr:first-child {
+	
+	font-weight: bold;
+	background-color: rgb(200,200,200);
+}
+
+.paniera tr:last-child td:last-child {
+	font-weight: bold;
+	
+}
+
 
 
 
