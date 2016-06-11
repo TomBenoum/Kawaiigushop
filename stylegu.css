@@ -710,6 +710,31 @@ font-weight: bold;
 }
 
 
+/***** FOOT *******/
+.b3, .bn3 {
+	font-size:15px;
+	text-decoration: inherit;
+	color: black;
+	padding: 0px 5px 0px 5px;
+	text-align: center;
+}
+
+
+.bn3:hover  {
+
+	color: white;
+
+}
+
+.barref {
+	text-align:center;	
+	background-color: rgba(80,80,80, 0.5);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+
 
 
 
