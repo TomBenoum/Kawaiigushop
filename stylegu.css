@@ -357,6 +357,16 @@ background-image: url('Shop/nouveaute&solde/kigu-lion.jpg');
 background-image: url('Shop/nouveaute&solde/kigu-alien.jpg');
 }
 
+.kigu-licorne-b .imgpr {
+background-image: url('Shop/Recherche/kigu-licorne-b.jpg');
+}
+
+.kigu-licorne-r .imgpr {
+background-image: url('Shop/Recherche/kigu-licorne-r.jpg');
+}
+
+
+
 
 prod {
 	display: block;
