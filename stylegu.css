@@ -1,6 +1,6 @@
 
 
-
+/* VALIDE PAR https://jigsaw.w3.org/css-validator/ */
 
 body
 {
@@ -23,6 +23,7 @@ html {
 	height:100%;
 }
 
+
 #fond
 {
 		position: fixed;
@@ -31,6 +32,8 @@ html {
 
 		opacity: 0.5;
 }
+
+
 
 /* LA BANNIERE */
 #bn_image{
@@ -42,7 +45,7 @@ html {
     height: 350px;
 	width: 880px;
     border-radius: 10px;
-    background: url(banner.png) no-repeat;
+    background: url(banner2.png) no-repeat;
     position: relative;
 	
 }
@@ -60,6 +63,7 @@ html {
 	font: 15px Arial,Verdana,sans-serif;
 	color: white;
 	padding-left : 5px;
+	font-family:Font-Gang;
 
 }
 #Recherche #rechb {
@@ -88,6 +92,7 @@ html {
 	border: 3px solid grey;
 	background-color : rgb(250,250,250);
 	padding: 1px 10px 1px 10px;
+	font-family:Font-Gang;
 }
 
 .buttonb:hover, #rechb:hover	 { /* bouton de la barre 1 */
@@ -202,6 +207,7 @@ text-decoration:none;
 padding:8px 20px;
 font-family:arial;
 color:black;
+font-family:Font-Gang;
 
 }
 #menu2 .choix:active{
@@ -237,7 +243,8 @@ text-align:center;
 	display: inline-block;
 	padding: 3px 6px 3px 6px;
 	margin: 0px;
-	font: 18px Arial,Verdana,sans-serif;
+	font: 20px Arial,Verdana,sans-serif;
+	font-family:Font-Gang;
 }
 
 #barre2 a:not([id="b2n"]){
@@ -246,7 +253,8 @@ text-align:center;
 	display: inline-block;
 	padding: 3px 6px 3px 6px;
 	margin: 0px;
-	font: 18px Arial,Verdana,sans-serif;
+	font: 20px Arial,Verdana,sans-serif;
+	font-family:Font-Gang;
 }
 
 #barre2 a:not([id="b2n"]):hover {
@@ -286,7 +294,7 @@ text-align:center;
   }
   
  .pages > :last-child, .pages > .page:target {
-    background-image: url('back8.jpg');
+    background-image: url('back13.jpg');
 	background-repeat: 	no-repeat;
 	background-position: center center;
 	background-attachment:fixed;
@@ -365,6 +373,11 @@ background-image: url('Shop/Recherche/kigu-licorne-b.jpg');
 background-image: url('Shop/Recherche/kigu-licorne-r.jpg');
 }
 
+#qsn{
+	
+	font-family:Font-Kata;
+}
+
 
 
 
@@ -398,10 +411,12 @@ border: 3px solid black;
 .prod .desct {
 	text-align: center;
 	width: 70%;
+	font-family:Font-Kata;
 }
 
 .prod .titt {
 	font-weight: bold;
+	font-family:Font-Gang;
 }
 
 
@@ -417,6 +432,7 @@ border: 3px solid black;
 	font-size: 30px;
 	padding-right: 20px;
 	vertical-align: middle;
+	font-family:Font-Gang;
 }
 
 
@@ -447,6 +463,7 @@ border: 3px solid black;
 
 #aceuil p:first-child, #aceuil2 p:first-child{
 	color: #FF0040;
+	font-family:Font-Gang;
 	
 }
 
@@ -455,6 +472,11 @@ border: 3px solid black;
 	margin: 10px 10px 0px 0px;
 	text-align: center;
 	text-decoration: inherit;
+	font-family:Font-Gang;
+	font-size: 17px;
+	
+	
+
 	
 }
 
@@ -468,6 +490,7 @@ border: 3px solid black;
 .promotionac ul, .promotionac li {
 color: white;
 list-style-type: none;
+font-family:Font-Kata;
 }
 
 .promotionac  :hover 
@@ -561,6 +584,7 @@ color: white;
 
 .conn, .connb, .connbsi {
 	min-width: 100px;
+	font-family:Font-Kata;
 	
 	
 }
@@ -590,11 +614,13 @@ display: block;
 
   	margin : 5px;
 	
+	
 }
 
 .tco {
 	
 padding : 15px;	
+font-family:Font-Gang;
 	
 }
 
@@ -614,12 +640,14 @@ padding : 15px;
 
  #cmtr div,#ajtpan div,#commder div{
 	margin: 30px;
-	text-align: center
+	text-align: center;
+	font-family:Font-Gang;
 }
 
 #cmdd {
 margin: 10px 100px 10px 100px;
 float: right;
+font-family:Font-Gang;
 	
 }
 
@@ -631,6 +659,7 @@ float: right;
 	margin: 50px auto;
 	width: 600px;
 	height: 400px;
+	font-family:Font-Gang;
 	
 }
 
@@ -653,6 +682,7 @@ font-weight: bold;
 	width: 600px;
 	height: 50px;
 	max-width:560px;
+	font-family:Font-Gang;
 }
 
 
@@ -663,12 +693,14 @@ font-weight: bold;
 	height: 180px;
 	max-height:180px;
 	max-width:560px;
+	font-family:Font-Gang;
 	
 }
 .formlr [type=text] {
 	
 	float: right;
 	width: 300px;
+	font-family:Font-Gang;
 }
 
 /*********** PANIER *********/
@@ -681,6 +713,7 @@ font-weight: bold;
 	width: 850px;
 	background-color: rgb(230,230,230);
 	border-collapse: collapse;
+	font-family:Font-Gang;
 
 }
 
@@ -733,7 +766,32 @@ font-weight: bold;
 	padding-bottom: 5px;
 }
 
+#livraison
+{
+	background-color: #DEDEDE;
+	font-size:15px;
+	text-decoration: inherit;
+	 position: absolute;
+    top: 770px;
+    left : 450px;
+    height: 50px;
+    border: 5px solid #FF6F47;
+	
+    font-family: Font-Gang;
 
+}
+
+@font-face
+{
+	font-family:"Font-Gang";
+	src: url('police/Gang.ttf');
+}
+
+@font-face
+{
+	font-family:"Font-Kata";
+	src: url('police/Kata.ttf');
+}
 
 
 
